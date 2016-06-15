@@ -1,0 +1,15 @@
+$dot-size: 20px;
+
+.throbber {
+  
+  .dot {
+    margin: 10px;
+    height: $dot-size;
+    width: $dot-size;
+    border-radius: $dot-size/2;
+    background-color: #999;
+    float: left;
+    transform: scale(0.7);
+  }
+  
+}
