@@ -20442,6 +20442,10 @@
 
 	      this.animateLoadingDots();
 	    }
+
+	    // this is messy, just a test animating react elements
+	    // by their ref directly.
+
 	  }, {
 	    key: 'animateLoadingDots',
 	    value: function animateLoadingDots() {
